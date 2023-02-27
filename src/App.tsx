@@ -1,25 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
+import {Link, Route, BrowserRouter, Routes } from 'react-router-dom';
 import './App.css';
+import Planet from "./Pages/Planet";
+import {AppNav} from "./Components/AppNav";
+import PlanetList from "./Pages/PlanetList";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <BrowserRouter>
+          <AppNav />
+          <Routes>
+              <Route path="/" element={<PlanetList />} />
+              <Route path=":id" element={<Planet />} />
+          </Routes>
+      </BrowserRouter>
   );
 }
 

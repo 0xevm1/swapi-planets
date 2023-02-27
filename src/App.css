@@ -1,5 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
 .App {
   text-align: center;
+  color: white;
+  height: 100vh;
 }
 
 .App-logo {
@@ -14,13 +22,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: black;
+  height: 30vh;
+  margin: 20px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(3px + 2vmin);
   color: white;
 }
 
@@ -36,3 +45,64 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'Jedi';
+  src: local('Jedi'), url(./STJEDISE.TTF) format('truetype');
+}
+
+.bump {
+  font-family: Jedi;
+  letter-spacing: .8rem;
+  font-size: 4em;
+  display: block;
+  -webkit-text-stroke-width: 2px;
+  color: black;
+  -webkit-text-stroke-color: #FFE81F;
+}
+
+.planet-button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  background-color: #FFE81F;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  width: 200px; /* or any fixed value that suits your design */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+a {
+  color: black;
+  background-color: #FFE81F;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.credit {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.stats {
+  align: left;
+}
+
