@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/swapi-planets/static/css/main.091c158e.css",
-    "main.js": "/swapi-planets/static/js/main.e6bb3e94.js",
+    "main.js": "/swapi-planets/static/js/main.e68aeba3.js",
     "static/js/787.d88c978a.chunk.js": "/swapi-planets/static/js/787.d88c978a.chunk.js",
     "static/media/STJEDISE.TTF": "/swapi-planets/static/media/STJEDISE.ae4970bd8efca4ee58be.TTF",
     "index.html": "/swapi-planets/index.html",
     "main.091c158e.css.map": "/swapi-planets/static/css/main.091c158e.css.map",
-    "main.e6bb3e94.js.map": "/swapi-planets/static/js/main.e6bb3e94.js.map",
+    "main.e68aeba3.js.map": "/swapi-planets/static/js/main.e68aeba3.js.map",
     "787.d88c978a.chunk.js.map": "/swapi-planets/static/js/787.d88c978a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.091c158e.css",
-    "static/js/main.e6bb3e94.js"
+    "static/js/main.e68aeba3.js"
   ]
 }
