@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
-import {Link, Route, BrowserRouter, Routes } from 'react-router-dom';
+import React from 'react';
+import {Route, BrowserRouter, Routes } from 'react-router-dom';
 import './App.css';
 import Planet from "./Pages/Planet";
 import {AppNav} from "./Components/AppNav";

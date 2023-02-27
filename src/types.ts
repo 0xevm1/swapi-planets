@@ -17,9 +17,11 @@ export interface IPlanet { //planet ID can be inferred from place in array, or e
 }
 
 export interface IFilm {
-    name: string;
+    title: string;
+    key: string;
 }
 
 export interface IResident {
     name: string;
+    key: string;
 }

@@ -78,6 +78,23 @@
   text-overflow: ellipsis;
 }
 
+.catalogue-button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: gray;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  width: 300px; /* or any fixed value that suits your design */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 a {
   color: black;
   background-color: #FFE81F;

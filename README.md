@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Star Wars Planetary Systems catalogue
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is built in React and Typescript and uses SWAPI, the Star Wars API to retrieve data about the planets.
+
+Some UI design choices included using the star wars color scheme, and adding a custom font.
+
+The custom font then has a CSS3 outline applied to it.
+
+The rest of the UI uses a simple list and React components to render elements from the API, center aligned.
+
+A list of planets is displayed, and each planet can be clicked on to view and retrieve relational data, this is triggered by 
+API calls to SWAPI, and will show the films that the planet was referenced in, and the characters (residents) that are from those planets.
+
+Enjoy!
 
 ## Available Scripts
 
