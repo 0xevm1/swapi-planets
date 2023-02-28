@@ -1,5 +1,7 @@
 # Star Wars Planetary Systems catalogue
 
+## **View it live here https://0xevm1.github.io/swapi-planets/**
+
 This project is built in React and Typescript and uses SWAPI, the Star Wars API to retrieve data about the planets.
 
 Some UI design choices included using the star wars color scheme, and adding a custom font.
